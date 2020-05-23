@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { StyleSheet, Text, View, Image, ScrollView, TouchableOpacity } from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
-import { loadPosts, likePost } from '../../store/slices/posts';
+// import { loadPosts, likePost } from '../../store/slices/posts';
+import { loadPosts, likePost } from '../../../store/slices/posts';
+
 import { MaterialCommunityIcons } from '@expo/vector-icons'
 
 
